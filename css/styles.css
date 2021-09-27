@@ -113,6 +113,7 @@ table {
   display: flex;
   font-weight: 600;
   font-size: 60px;
+  line-height: 70px;
 }
 
 .line {
@@ -125,7 +126,8 @@ table {
 
 .hero-txt-2 {
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 500;
+  line-height: 35px;
   margin-bottom: 50px;
 }
 
