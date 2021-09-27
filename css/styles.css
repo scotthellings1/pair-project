@@ -87,21 +87,28 @@ body {
 header {
   background: #23284B;
 }
-
-.header {
+header .header {
   display: flex;
   background: #23284B;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   padding: 1.5em 0;
 }
-
-.logo img {
+header .logo img {
   width: 175px;
   height: auto;
 }
-
-.header-links {
+@media screen and (min-width: 992px) {
+  header .logo img {
+    width: 200px;
+  }
+}
+@media screen and (min-width: 1260px) {
+  header .logo img {
+    width: 300px;
+  }
+}
+header .header-links {
   display: none;
   color: #fff;
   justify-content: space-between;
@@ -109,28 +116,32 @@ header {
   font-size: 0.7rem;
 }
 @media screen and (min-width: 768px) {
-  .header-links {
+  header .header-links {
     display: flex;
   }
 }
+@media screen and (min-width: 992px) {
+  header .header-links {
+    font-size: 0.975rem;
+  }
+}
 @media screen and (min-width: 1260px) {
-  .header-links {
+  header .header-links {
     font-size: 1.25rem;
   }
 }
-.header-links a {
+header .header-links a {
   text-decoration: none;
   color: #ffffff;
 }
-
-.header-link {
+header .header-link {
   margin-right: 2em;
   position: relative;
 }
-.header-link:last-child {
+header .header-link:last-child {
   margin: 0;
 }
-.header-link:hover::after {
+header .header-link:hover::after {
   content: "";
   height: 1px;
   width: 100%;
@@ -139,21 +150,19 @@ header {
   position: absolute;
   background: #ffffff;
 }
-
-.phone-icon {
+header .phone-icon {
   width: 1em;
   height: 1em;
   margin-top: 0.25em;
 }
-
-.menu-btn {
+header .menu-btn {
   height: 2em;
   width: 2em;
   color: #ffffff;
   margin-left: 1em;
 }
 @media screen and (min-width: 768px) {
-  .menu-btn {
+  header .menu-btn {
     display: none;
   }
 }
