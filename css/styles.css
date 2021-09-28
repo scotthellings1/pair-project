@@ -1,0 +1,428 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* /CSS reset */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: lato, sans-serif;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container {
+    width: 950px;
+  }
+}
+@media screen and (min-width: 1260px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+header {
+  background: #23284B;
+}
+header .header {
+  display: flex;
+  background: #23284B;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.5em 0;
+}
+header .logo img {
+  width: 175px;
+  height: auto;
+}
+@media screen and (min-width: 992px) {
+  header .logo img {
+    width: 200px;
+  }
+}
+@media screen and (min-width: 1260px) {
+  header .logo img {
+    width: 300px;
+  }
+}
+header .header-links {
+  display: none;
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.7rem;
+}
+@media screen and (min-width: 768px) {
+  header .header-links {
+    display: flex;
+  }
+}
+@media screen and (min-width: 992px) {
+  header .header-links {
+    font-size: 0.975rem;
+  }
+}
+@media screen and (min-width: 1260px) {
+  header .header-links {
+    font-size: 1.25rem;
+  }
+}
+header .header-links a {
+  text-decoration: none;
+  color: #ffffff;
+}
+header .header-link {
+  margin-right: 2em;
+  position: relative;
+}
+header .header-link:last-child {
+  margin: 0;
+}
+header .header-link:hover::after {
+  content: "";
+  height: 1px;
+  width: 100%;
+  bottom: -5px;
+  left: 0;
+  position: absolute;
+  background: #ffffff;
+}
+header .phone-icon {
+  width: 1em;
+  height: 1em;
+  margin-top: 0.25em;
+}
+header .menu-btn {
+  height: 2em;
+  width: 2em;
+  color: #ffffff;
+  margin-left: 1em;
+}
+@media screen and (min-width: 768px) {
+  header .menu-btn {
+    display: none;
+  }
+}
+
+.hero-img {
+  display: flex;
+  width: 100%;
+  height: calc(100vh - 115px);
+  background-image: url(../img/calc.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Lato", sans-serif;
+}
+
+.empty-aligner {
+  flex-basis: 50%;
+}
+
+.alignment-box {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-txt-1,
+.hero-txt-2,
+.btn-1 {
+  color: #FFFFFF;
+}
+
+.hero-txt-1,
+.hero-txt-2 {
+  width: 500px;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.hero-txt-1 {
+  display: flex;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 70px;
+}
+
+.line {
+  width: 500px;
+  height: 1px;
+  border: 1px, solid, #FFFFFF;
+  background-color: #FFFFFF;
+  margin: 25px 0 35px 0;
+}
+
+.hero-txt-2 {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 35px;
+  margin-bottom: 50px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.btn-1,
+.btn-2 {
+  padding: 15px 50px;
+  text-transform: capitalize;
+  font-size: 20px;
+  box-shadow: inset 2px 1px LightGray;
+}
+
+.btn-1 {
+  background-color: #23284B;
+  padding: 15px 50px;
+  border: #FFFFFF 2px solid;
+}
+
+.btn-2 {
+  background-color: #FFFFFF;
+  color: #23284B;
+  border: #23284B 2px solid;
+}
+
+.btn-1:hover {
+  background-color: #FFFFFF;
+  color: #23284B;
+  border: #23284B 2px solid;
+  cursor: pointer;
+}
+
+.btn-2:hover {
+  background-color: #23284B;
+  color: #FFFFFF;
+  border: #FFFFFF 2px solid;
+  cursor: pointer;
+}
+
+.about {
+  display: flex;
+  height: 600px;
+  font-family: "Lato", sans-serif;
+}
+
+.about-txt {
+  flex-basis: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-h {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 40px;
+  color: #23284B;
+  padding: 20px;
+  border-bottom: 1px solid #414143;
+}
+
+.about-p {
+  margin: 20px;
+  font-size: 20px;
+}
+
+.about-img {
+  flex-basis: 45%;
+  background-image: url(../img/notepad.png);
+}
+
+.bold {
+  font-weight: 500;
+}
+
+footer {
+  background: #23284B;
+  padding: 1.5em;
+}
+footer .line {
+  width: 100%;
+  margin: 15px 0;
+}
+
+.license,
+.contact-section,
+.sections {
+  min-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .license,
+.contact-section,
+.sections {
+    min-width: 10%;
+    max-width: 28%;
+  }
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #FFFFFF;
+}
+@media screen and (min-width: 768px) {
+  .nav {
+    flex-direction: row;
+    align-items: start;
+    text-align: left;
+    justify-content: space-around;
+  }
+}
+
+.aat-logo, .xero-logo {
+  margin-bottom: 1em;
+}
+
+.license-p {
+  max-width: 65%;
+}
+@media screen and (min-width: 768px) {
+  .license-p {
+    max-width: 100%;
+  }
+}
+
+.license-p p + p {
+  margin-top: 1.3em;
+}
+
+.contact-section {
+  font-weight: bold;
+}
+.contact-section h3 {
+  margin-top: 2.5rem;
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+@media screen and (min-width: 768px) {
+  .contact-section h3 {
+    margin-top: 0;
+  }
+}
+.contact-section .contact-txt {
+  line-height: 1.7;
+}
+.contact-section .phone-link {
+  margin-top: 0.5rem;
+  display: block;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.sections {
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.sections h3 {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  margin-top: 2.5rem;
+}
+@media screen and (min-width: 768px) {
+  .sections h3 {
+    margin-top: 0;
+  }
+}
+.sections ul {
+  padding-left: 15px;
+  line-height: 1.7;
+  text-align: left;
+}
+.sections li {
+  position: relative;
+}
+.sections li a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.sections li:hover {
+  text-decoration: underline;
+}
+.sections li::before {
+  content: "›";
+  font-size: 1.25rem;
+  position: absolute;
+  left: -15px;
+  bottom: -3px;
+}
+
+.copyright {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 0.875rem;
+}
+.copyright .copy-txt {
+  padding-top: 0.25rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
