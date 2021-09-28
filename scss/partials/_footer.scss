@@ -1,1 +1,80 @@
 @use '../abstracts' as *;
+footer {
+  background: $blue;
+  padding: 1.5em;
+  .line {
+    width: 100%;
+    margin: 15px 0;
+  }
+}
+
+.license,
+ .contact-section,
+ .sections {
+  max-width: 28%;
+ }
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  color: $white;
+}
+
+.aat-logo, .xero-logo {
+  margin-bottom: 1em;
+}
+
+.license-p p+p {
+  margin-top: 1.3em;
+}
+
+.contact-section {
+  font-weight: bold;
+
+  h3 {
+    font-size: 1.25rem;
+
+    margin-bottom: 2rem;
+  }
+  .contact-txt {
+    line-height: 1.7;
+  }
+  .phone-link {
+    margin-top: 0.5rem;
+    display: block;
+    color: $white;
+    text-decoration: none;
+  }
+}
+.sections {
+  font-weight: bold;
+  margin-bottom: 2rem;
+
+  h3 {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  ul {
+    padding-left: 15px;
+    line-height: 1.7;
+  }
+
+  li {
+    position: relative;
+  }
+  li::before {
+    content: '\203A';
+    font-size: 1.25rem;
+    position: absolute;
+    left: -15px;
+    bottom: -3px;
+  }
+}
+.copyright {
+  text-align: center;
+  color: $white;
+  font-size: 0.875rem;
+  .copy-txt {
+    padding-top: 0.25rem;
+  }
+}
