@@ -1,0 +1,43 @@
+@use '../abstracts' as *;
+
+.about {
+  display: flex;
+  height: 600px;
+  font-family: 'Lato', sans-serif;
+
+}
+
+.about-txt {
+  flex-basis: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.about-h {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 40px;
+  color: $blue;
+  padding: 20px;
+  border-bottom: 1px solid $grey;
+}
+
+.about-line {
+
+}
+
+.about-p {
+  margin: 20px;
+  font-size: 20px;
+}
+
+.about-img {
+  flex-basis: 45%;
+  background-image: url(../img/notepad.png);
+}
+
+.bold {
+  font-weight: 500;
+}
