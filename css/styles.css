@@ -661,6 +661,17 @@ header .menu-btn {
   bottom: -15px;
   right: -10px;
 }
+@media screen and (min-width: 992px) {
+  .testimony-txt::after {
+    right: -15px;
+  }
+}
+@media screen and (min-width: 1260px) {
+  .testimony-txt::after {
+    right: 40px;
+  }
+}
+
 footer {
   background: #23284B;
   padding: 1.5em;
