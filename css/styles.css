@@ -313,13 +313,30 @@ footer .line {
 .license,
 .contact-section,
 .sections {
-  max-width: 28%;
+  min-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .license,
+.contact-section,
+.sections {
+    min-width: 10%;
+    max-width: 28%;
+  }
 }
 
 .nav {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
   color: #FFFFFF;
+}
+@media screen and (min-width: 768px) {
+  .nav {
+    flex-direction: row;
+    align-items: start;
+    text-align: left;
+    justify-content: space-around;
+  }
 }
 
 .aat-logo, .xero-logo {
@@ -334,8 +351,14 @@ footer .line {
   font-weight: bold;
 }
 .contact-section h3 {
+  margin-top: 2.5rem;
   font-size: 1.25rem;
   margin-bottom: 2rem;
+}
+@media screen and (min-width: 768px) {
+  .contact-section h3 {
+    margin-top: 0;
+  }
 }
 .contact-section .contact-txt {
   line-height: 1.7;
@@ -354,10 +377,17 @@ footer .line {
 .sections h3 {
   font-size: 1.25rem;
   margin-bottom: 2rem;
+  margin-top: 2.5rem;
+}
+@media screen and (min-width: 768px) {
+  .sections h3 {
+    margin-top: 0;
+  }
 }
 .sections ul {
   padding-left: 15px;
   line-height: 1.7;
+  text-align: left;
 }
 .sections li {
   position: relative;
