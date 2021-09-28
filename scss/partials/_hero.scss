@@ -2,9 +2,9 @@
 
 .hero-img {
   display: flex;
-  width: 100vw;
+  width: 100%;
   //height is temporary, when header is finished header+hero=100vh.
-  height: 800px;
+  height: calc(100vh - 115px);
   background-image: url(../img/calc.png);
   background-size: cover;
   background-repeat: no-repeat;

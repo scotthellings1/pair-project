@@ -1,1 +1,84 @@
-@use '../abstracts' as *;
+@use "../abstracts" as *;
+
+header {
+  background: $blue;
+
+  .header {
+    display: flex;
+    background: $blue;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5em 0;
+
+  }
+
+  .logo img {
+    width: 175px;
+    height: auto;
+    @include mq(md) {
+      width: 200px;
+    }
+    @include mq(lg) {
+      width: 300px;
+    }
+  }
+
+  .header-links {
+    display: none;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.7rem;
+    @include mq(sm) {
+      display: flex;
+
+    }
+    @include mq(md) {
+      font-size: 0.975rem;
+    }
+    @include mq(lg) {
+      font-size: 1.25rem;
+    }
+
+    a {
+      text-decoration: none;
+      color: #ffffff;
+    }
+
+  }
+
+  .header-link {
+    margin-right: 2em;
+    position: relative;
+
+    &:last-child {
+      margin: 0;
+    }
+
+    &:hover::after {
+      content: '';
+      height: 1px;
+      width: 100%;
+      bottom: -5px;
+      left: 0;
+      position: absolute;
+      background: #ffffff;
+    }
+  }
+
+  .phone-icon {
+    width: 1em;
+    height: 1em;
+    margin-top: 0.25em;
+  }
+
+  .menu-btn {
+    height: 2em;
+    width: 2em;
+    color: #ffffff;
+    margin-left: 1em;
+    @include mq(sm) {
+      display: none;
+    }
+  }
+}
