@@ -1,1 +1,35 @@
 @use '../abstracts' as *;
+.testimony {
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 2em;
+  @include mq(sm) {
+    font-size: 1.125rem;
+  }
+  @include mq(md) {
+    font-size: 1.25rem;
+  }
+  @include mq(lg) {
+    font-size: 1.5rem;
+  }
+}
+.testimony-txt {
+  position: relative;
+  margin-left: 60px;
+  &::before,
+  &::after{
+    position: absolute;
+    font-family: Serif;
+    font-size: 7rem;
+  }
+  &::before {
+    content: '\201C';
+    top: -50px;
+    left: -70px;
+  }
+  &::after {
+    content: '\201E';
+    bottom: -35px;
+    right: -40px;
+  }
+}

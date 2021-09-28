@@ -301,6 +301,47 @@ header .menu-btn {
   font-weight: 500;
 }
 
+.testimony {
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 2em;
+}
+@media screen and (min-width: 768px) {
+  .testimony {
+    font-size: 1.125rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .testimony {
+    font-size: 1.25rem;
+  }
+}
+@media screen and (min-width: 1260px) {
+  .testimony {
+    font-size: 1.5rem;
+  }
+}
+
+.testimony-txt {
+  position: relative;
+  margin-left: 60px;
+}
+.testimony-txt::before, .testimony-txt::after {
+  position: absolute;
+  font-family: Serif;
+  font-size: 7rem;
+}
+.testimony-txt::before {
+  content: "“";
+  top: -50px;
+  left: -70px;
+}
+.testimony-txt::after {
+  content: "„";
+  bottom: -35px;
+  right: -40px;
+}
+
 footer {
   background: #23284B;
   padding: 1.5em;
