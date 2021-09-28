@@ -36,9 +36,15 @@ footer {
 .aat-logo, .xero-logo {
   margin-bottom: 1em;
 }
-
+.license-p {
+  max-width: 65%;
+  @include mq(sm) {
+    max-width: 100%;
+  }
+}
 .license-p p+p {
   margin-top: 1.3em;
+
 }
 
 .contact-section {
@@ -82,6 +88,13 @@ footer {
 
   li {
     position: relative;
+    a {
+      color: $white;
+      text-decoration: none;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
   }
   li::before {
     content: '\203A';
@@ -99,3 +112,4 @@ footer {
     padding-top: 0.25rem;
   }
 }
+
