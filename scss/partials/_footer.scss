@@ -1,1 +1,115 @@
 @use '../abstracts' as *;
+footer {
+  background: $blue;
+  padding: 1.5em;
+  .line {
+    width: 100%;
+    margin: 15px 0;
+  }
+}
+
+.license,
+ .contact-section,
+ .sections {
+  min-width: 100%;
+  @include mq(sm) {
+    min-width: 10%;
+    max-width: 28%;
+  }
+ }
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+  color: $white;
+  @include mq(sm) {
+    flex-direction: row;
+    align-items: start;
+    text-align: left;
+    justify-content: space-around;
+  }
+}
+
+.aat-logo, .xero-logo {
+  margin-bottom: 1em;
+}
+.license-p {
+  max-width: 65%;
+  @include mq(sm) {
+    max-width: 100%;
+  }
+}
+.license-p p+p {
+  margin-top: 1.3em;
+
+}
+
+.contact-section {
+  font-weight: bold;
+
+  h3 {
+    margin-top: 2.5rem;
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    @include mq(sm) {
+      margin-top: 0;
+    }
+  }
+  .contact-txt {
+    line-height: 1.7;
+  }
+  .phone-link {
+    margin-top: 0.5rem;
+    display: block;
+    color: $white;
+    text-decoration: none;
+  }
+}
+.sections {
+  font-weight: bold;
+  margin-bottom: 2rem;
+
+  h3 {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    margin-top: 2.5rem;
+    @include  mq(sm) {
+      margin-top: 0;
+    }
+  }
+  ul {
+    padding-left: 15px;
+    line-height: 1.7;
+    text-align: left;
+  }
+
+  li {
+    position: relative;
+    a {
+      color: $white;
+      text-decoration: none;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  li::before {
+    content: '\203A';
+    font-size: 1.25rem;
+    position: absolute;
+    left: -15px;
+    bottom: -3px;
+  }
+}
+.copyright {
+  text-align: center;
+  color: $white;
+  font-size: 0.875rem;
+  .copy-txt {
+    padding-top: 0.25rem;
+  }
+}
+
