@@ -8,20 +8,32 @@
   background-image: url(../img/calc.png);
   background-size: cover;
   background-repeat: no-repeat;
-  font-family: 'Lato', sans-serif;
 }
 
+.hero-container {
+  display: flex;
+}
 
 .empty-aligner {
-  flex-basis: 50%;
+  flex-basis: 0%;
+}
+
+.empty-aligner,
+.alignment-box {
+  @include mq(md) {
+    flex-basis: 50%;
+  }
 }
 
 .alignment-box {
-  flex-basis: 50%;
+  flex-basis: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  @include mq(md) {
+    align-items: flex-end;
+  }
 }
 
 .hero-txt-1,
@@ -32,50 +44,93 @@
 
 .hero-txt-1,
 .hero-txt-2 {
-  width: 500px;
-  text-align: right;
+  text-align: center;
   text-transform: uppercase;
+  @include mq(md) {
+    text-align: right;
+  }
+}
+
+.hero-txt-2 br {
+  display: none;
+  @include mq(xs) {
+    display: inline-block;
+  }
 }
 
 .hero-txt-1 {
   display: flex;
   font-weight: 600;
-  font-size: 60px;
-  line-height: 70px;
+  font-size: 40px;
+  line-height: 45px;
+  @include mq(xs) {
+    font-size: 60px;
+    line-height: 70px;
+    font-size: 60px;
+    width: 500px;
+  }
+  @include mq(sm) {
+    font-size: 60px;
+    line-height: 70px;
+  }
 }
 
 .line {
-  width: 500px;
+  width: 300px;
   height: 1px;
   border: 1px, solid, $white;
   background-color: $white;
   margin: 25px 0 35px 0;
+  @include mq(xs) {
+    width: 500px;
+  }
+}
+
+.hero-txt-1,
+.hero-txt-2 {
+  width:auto;
+  @include mq(sm) {
+    width: 500px;
+  }
 }
 
 .hero-txt-2 {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 35px;
   margin-bottom: 50px;
+  @include mq(xs) {
+    font-size: 30px;
+    width: 500px;
+  }
 }
 
 .buttons {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  @include mq(md) {
+    width: 500px;
+  }
 }
 
 .btn-1,
 .btn-2 {
-  padding: 15px 50px;
+  width: 100%;
+  flex-basis:40%;
+  padding: 15px 10px;
   text-transform: capitalize;
-  font-size: 20px;
+  font-size: 14.5px;
+  text-align: center;
   box-shadow: inset 2px 1px LightGray;
+  @include mq(xs) {
+    font-size: 20px;
+  }
 }
 
 .btn-1 {
   background-color: $blue;
-  padding: 15px 50px;
+  padding: 15px 10px;
   border: $white 2px solid;
 }
 
@@ -85,16 +140,8 @@
   border: $blue 2px solid;
 }
 
-.btn-1:hover {
-  background-color: $white;
-  color: $blue;
-  border: $blue 2px solid;
-  cursor: pointer;
-}
-
-.btn-2:hover {
-  background-color: $blue;
-  color: $white;
-  border: $white 2px solid;
+.btn-1:hover,
+.btn-2:hover,
+.contact-btn {
   cursor: pointer;
 }
