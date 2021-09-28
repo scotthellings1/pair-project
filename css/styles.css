@@ -367,17 +367,9 @@ header .menu-btn {
   border: #23284B 2px solid;
 }
 
-.btn-1:hover {
-  background-color: #FFFFFF;
-  color: #23284B;
-  border: #23284B 2px solid;
-  cursor: pointer;
-}
-
-.btn-2:hover {
-  background-color: #23284B;
-  color: #FFFFFF;
-  border: #FFFFFF 2px solid;
+.btn-1:hover,
+.btn-2:hover,
+.contact-btn {
   cursor: pointer;
 }
 
@@ -482,6 +474,20 @@ header .menu-btn {
   font-weight: 600;
 }
 
+@media screen and (min-width: 768px) {
+  .about-txt {
+    -ms-flex-preferred-size: 45%;
+        flex-basis: 45%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about-img {
+    -ms-flex-preferred-size: 55%;
+        flex-basis: 55%;
+  }
+}
+
 .contact {
   height: auto;
   width: 100%;
@@ -529,6 +535,35 @@ header .menu-btn {
   line-height: 25px;
   margin: 15px 0 15px 0;
 }
+@media screen and (min-width: 550px) {
+  .contact-txt {
+    width: 425px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .contact-txt {
+    width: 425px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .contact-txt {
+    width: 600px;
+  }
+}
+@media screen and (min-width: 1260px) {
+  .contact-txt {
+    width: 700px;
+  }
+}
+
+.contact-txt > br {
+  display: none;
+}
+@media screen and (min-width: 992px) {
+  .contact-txt > br {
+    display: inline-block;
+  }
+}
 
 .contact-txt > b {
   font-weight: 600;
@@ -549,8 +584,8 @@ header .menu-btn {
 }
 @media screen and (min-width: 768px) {
   .contact-btn {
-    font-size: 15px;
-    padding: 10px 15px;
+    font-size: 17px;
+    padding: 20px 25px;
   }
 }
 @media screen and (min-width: 992px) {
@@ -610,24 +645,22 @@ header .menu-btn {
 
 .testimony-txt {
   position: relative;
-  margin-left: 60px;
 }
 .testimony-txt::before, .testimony-txt::after {
   position: absolute;
   font-family: Serif;
-  font-size: 7rem;
+  font-size: 4rem;
 }
 .testimony-txt::before {
   content: "“";
-  top: -50px;
-  left: -70px;
+  top: -20px;
+  left: -35px;
 }
 .testimony-txt::after {
   content: "„";
-  bottom: -35px;
-  right: -40px;
+  bottom: -15px;
+  right: -10px;
 }
-
 footer {
   background: #23284B;
   padding: 1.5em;
@@ -709,7 +742,7 @@ footer .line {
     margin-top: 0;
   }
 }
-.contact-section .contact-txt {
+.contact-section .address-txt {
   line-height: 1.7;
 }
 .contact-section .phone-link {

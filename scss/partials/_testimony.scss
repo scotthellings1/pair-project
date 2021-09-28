@@ -15,21 +15,30 @@
 }
 .testimony-txt {
   position: relative;
-  margin-left: 60px;
+  // margin-left: 60px;
   &::before,
   &::after{
     position: absolute;
     font-family: Serif;
-    font-size: 7rem;
+    font-size: 4rem;
+    @include mq(sm) {
+      // font-size: 7rem
+    }
   }
   &::before {
     content: '\201C';
-    top: -50px;
-    left: -70px;
+    top: -20px;
+    left: -35px;
+    @include mq(sm) {
+
+    }
   }
   &::after {
     content: '\201E';
-    bottom: -35px;
-    right: -40px;
+    bottom: -15px;
+    right: -10px;
+    @include mq(sm) {
+
+    }
   }
 }

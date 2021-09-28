@@ -71,3 +71,15 @@
 .bold {
   font-weight: 600;
 }
+
+.about-txt {
+  @include mq(sm) {
+    flex-basis: 45%;
+  }
+}
+
+.about-img {
+  @include mq(sm) {
+    flex-basis: 55%;
+  }
+}
