@@ -3,7 +3,5 @@ CREATE TABLE contact_details (
   first_name varchar(128) not null,
   last_name varchar(128) not null,
   email varchar(128) not null,
-  date datetime not null,
-  subject varchar(500) not null,
-  content varchar(2000) not null
+  date datetime not null
 );

@@ -90,6 +90,7 @@ header {
   background: #23284B;
 }
 header .header {
+  height: 115px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -663,7 +664,7 @@ header .menu-btn {
 }
 @media screen and (min-width: 992px) {
   .testimony-txt::after {
-    right: -15px;
+    right: 15px;
   }
 }
 @media screen and (min-width: 1260px) {
@@ -807,4 +808,33 @@ footer .line {
 }
 .copyright .copy-txt {
   padding-top: 0.25rem;
+}
+
+.form-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: auto;
+}
+
+.contact-form {
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
