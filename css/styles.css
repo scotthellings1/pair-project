@@ -838,3 +838,15 @@ footer .line {
       -ms-flex-align: center;
           align-items: center;
 }
+
+.email {
+  width: 100%;
+}
+
+.subject {
+  width: 100%;
+}
+
+.message {
+  width: 100%;
+}
