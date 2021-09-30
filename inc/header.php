@@ -5,8 +5,8 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/css/styles.css">
-    <link rel="icon" href="/img/logo-sm.jpeg">
+    <link rel="stylesheet" href="/pair-project/css/styles.css">
+    <link rel="icon" href="/pair-project/img/logo-sm.jpeg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
@@ -17,19 +17,23 @@
       <header >
         <div class="container">
           <div class="header">
-            <div class="logo"><a href="/index.php"><img src="/img/logo.jpeg" alt=""></a></div>
+            <div class="logo">
+              <a href="/pair-project/index.php">
+                <img src="/pair-project/img/logo.jpeg" alt="">
+              </a>
+            </div>
             <ul class="header-links">
               <li class="header-link">
-                <a href="/pages/services.php">My Services</a>
+                <a href="/pair-project/pages/services.php">My Services</a>
               </li>
               <li class="header-link">
-                <a href="/pages/accountant.php">Switch Accountants</a>
+                <a href="/pair-project/pages/accountant.php">Switch Accountants</a>
               </li>
               <li class="header-link">
-                <a href="/pages/faq.php">FAQ's</a>
+                <a href="/pair-project/pages/faq.php">FAQ's</a>
               </li>
               <li class="header-link">
-                <a href="/pages/contact.php">Contact Us</a>
+                <a href="/pair-project/pages/contact.php">Contact Us</a>
               </li>
               <li class="header-link"><a href="#">
                 <span>

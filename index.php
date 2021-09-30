@@ -1,4 +1,4 @@
-<?php include($_SERVER['DOCUMENT_ROOT'] ."/inc/header.php");  ?>
+<?php include($_SERVER['DOCUMENT_ROOT'] ."/pair-project/inc/header.php");  ?>
 <!-- header end -->
     <div class="hero-img">
       <div class="container hero-container">
@@ -85,4 +85,4 @@
     </div>
     <!-- testimony end -->
     <!-- footer start  -->
-<?php include($_SERVER['DOCUMENT_ROOT'] ."/inc/footer.php");  ?>
+<?php include($_SERVER['DOCUMENT_ROOT'] ."/pair-project/inc/footer.php");  ?>
