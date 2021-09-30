@@ -1,0 +1,15 @@
+@use '../abstracts' as *;
+
+.services-page-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/services-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 300px;
+  color: $white;
+  font-size: 2rem;
+  font-weight: bold;
+}
