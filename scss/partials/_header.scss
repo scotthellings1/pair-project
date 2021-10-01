@@ -26,7 +26,7 @@ header {
 
   .header-links {
     display: none;
-    color: #fff;
+    color: $white;
     justify-content: space-between;
     align-items: center;
     font-size: 0.7rem;
@@ -43,7 +43,7 @@ header {
 
     a {
       text-decoration: none;
-      color: #ffffff;
+      color: $white;
     }
 
   }
@@ -63,7 +63,7 @@ header {
       bottom: -5px;
       left: 0;
       position: absolute;
-      background: #ffffff;
+      background: $white;
     }
   }
 
@@ -76,10 +76,44 @@ header {
   .menu-btn {
     height: 2em;
     width: 2em;
-    color: #ffffff;
+    color: $white;
     margin-left: 1em;
     @include mq(sm) {
       display: none;
+    }
+  }
+
+  .mobile-menu {
+    position: absolute;
+    top: 115px;
+    left: 0;
+    right: 0;
+    background: lighten($blue, 10%);
+    z-index: 10;
+  }
+
+  .mobile-header-links {
+    color: $white;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.25rem;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    a {
+      text-decoration: none;
+      color: $white;
+      display: block;
+      padding: 0.75em;
+    }
+  }
+
+  .mobile-header-link {
+    margin:  0;
+    position: relative;
+
+    &:hover {
+      background: $blue;
     }
   }
 }
