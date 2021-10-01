@@ -113,7 +113,7 @@ header {
     position: relative;
 
     &:hover {
-      background: $blue;
+      background: lighten($blue, 5%);
     }
   }
 }
