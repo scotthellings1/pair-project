@@ -1,0 +1,35 @@
+@use "../abstracts" as *;
+
+.faq-page-header {
+  position: relative;
+  background-image: url("../img/faq-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 300px;
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+                  to right,
+                  rgb(0, 0, 0, 0.45),
+                  rgba(0, 0, 0, 0.65) 100%,
+                  transparent 85%
+  );
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $white;
+  font-size: 2rem;
+  font-weight: bold;
+  height: 100%;
+}
