@@ -82,15 +82,15 @@ header {
   }
 
   .menu-btn {
-    height: 2em;
-    width: 2em;
     color: $white;
-    margin-left: 1em;
     @include mq(sm) {
       display: none;
     }
-  }
 
+  }
+ .hamburger .is-active {
+   background: $white;
+ }
   .mobile-menu {
     @include mq(sm) {
       display: none;
@@ -104,9 +104,11 @@ header {
     z-index: -1;
     transform: translate3d(0,-100%,0);
     transition: all 300ms ease-in-out;
+    opacity: 0;
     &.active {
       transform: translate3d(0,0%,0);
       z-index: -1;
+      opacity: 1;
     }
   }
 
