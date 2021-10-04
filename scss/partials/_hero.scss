@@ -82,6 +82,7 @@
   background-color: $white;
   margin: 25px 0 35px 0;
   @include mq(xs) {
+    box-sizing: content-box;
     width: 500px;
   }
 }
