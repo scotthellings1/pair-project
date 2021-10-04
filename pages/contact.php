@@ -3,6 +3,14 @@ include($_SERVER['DOCUMENT_ROOT'] . "/pair-project/inc/header.php");
 include($_SERVER['DOCUMENT_ROOT'] . "/pair-project/inc/dbh.php");
 ?>
 
+<div class="services-page-header">
+  <div class="overlay">
+    <div class="content">
+      <h1>Contact Us</h1>
+    </div>
+  </div>
+</div>
+
 <div class="container contact-pg-container">
   <div class="map-wrapper">
     <h1 class="map-title">Find Us:</h1>
@@ -10,24 +18,25 @@ include($_SERVER['DOCUMENT_ROOT'] . "/pair-project/inc/dbh.php");
     <div class="map-info">
       <p class="map-p">
         <a href="">
-          Tel:0*9*3 *8*9*5
+          <b>Tel:</b>  12345 678910 <br>
         </a>
       </p>
       <p class="map-p">
         <a href="">
-          Mob:
+          <b>Mob:</b>  098097 3768<br>
         </a>
       </p>
       <p class="map-p">
         <a href="">
-          Email:
+          <b>Email:</b>  sharon-wray@fake.com <br>
         </a>
       </p>
       <address class="map-address">
-        Sharon Wray Accountancy Services <br>
-        38a Barnham Broom Road           <br>
-        Wymondham                        <br>
-        Norfolk                          <br>
+                                         <br><br>
+        Sharon Wray Accountancy Services <br><br>
+        38a Barnham Broom Road           <br><br>
+        Wymondham                        <br><br>
+        Norfolk                          <br><br>
         NR18 0DF
       </address>
     </div>
@@ -86,4 +95,6 @@ include($_SERVER['DOCUMENT_ROOT'] . "/pair-project/inc/dbh.php");
   </div>
 </div>
 
-<?php include($_SERVER['DOCUMENT_ROOT'] . "/pair-project/inc/footer.php"); ?>
+<script src="https://www.google.com/recaptcha/enterprise.js?render=6LdBI6ocAAAAAMuVVpHs-kpcA1w8bzRs_QT0y9X4"></script>
+
+<?php include($_SERVER['DOCUMENT_ROOT'] . "/pair-project/inc/footer-captcha.php"); ?>

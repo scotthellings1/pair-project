@@ -53,5 +53,14 @@ crossorigin=""></script>
 
 <script src="/pair-project/js/leafMap.js"></script>
 
+<script src="https://www.google.com/recaptcha/enterprise.js?render=6LdBI6ocAAAAAMuVVpHs-kpcA1w8bzRs_QT0y9X4"></script>
+<script>
+grecaptcha.enterprise.ready(function() {
+    grecaptcha.enterprise.execute('6LdBI6ocAAAAAMuVVpHs-kpcA1w8bzRs_QT0y9X4', {action: 'login'}).then(function(token) {
+       ...
+    });
+});
+</script>
+
 </body>
 </html>
