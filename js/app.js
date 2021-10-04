@@ -1,8 +1,8 @@
-menuButton = document.querySelector('.menu-btn')
-mobileMenu = document.querySelector('.mobile-menu')
-hamburger = document.querySelector('.hamburger')
+const menuButton = document.querySelector('.menu-btn')
+const mobileMenu = document.querySelector('.mobile-menu')
+const hamburger = document.querySelector('.hamburger')
 
-menuButton.addEventListener('click', (e) => {
+menuButton.addEventListener('click', function (e) {
     if (window.innerWidth >= 753) {
         mobileMenu.classList.remove('active')
     }

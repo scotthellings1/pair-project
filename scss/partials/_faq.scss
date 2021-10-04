@@ -33,3 +33,37 @@
   font-weight: bold;
   height: 100%;
 }
+
+.faqs {
+  margin: 4em 0;
+  padding: 25px 50px ;
+  border-radius: 20px;
+  background: lighten($blue, 5%) ;
+  color: $white;
+
+}
+.faq-item{
+  border-bottom: 1px solid $white;
+  padding: 1.5rem 0;
+  &:last-child {
+    border-bottom: none;
+  }
+}
+.faq-icon {
+  color: $white;
+  height: 30px;
+  width: 30px;
+}
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.75rem;
+}
+.faq-answer {
+  margin-top: 10px;
+  font-size: 1.25rem;
+  //height: 0;
+  overflow: hidden;
+
+}

@@ -1050,6 +1050,47 @@ footer .line {
   height: 100%;
 }
 
+.faqs {
+  margin: 4em 0;
+  padding: 25px 50px;
+  border-radius: 20px;
+  background: #2b315c;
+  color: #FFFFFF;
+}
+
+.faq-item {
+  border-bottom: 1px solid #FFFFFF;
+  padding: 1.5rem 0;
+}
+.faq-item:last-child {
+  border-bottom: none;
+}
+
+.faq-icon {
+  color: #FFFFFF;
+  height: 30px;
+  width: 30px;
+}
+
+.faq-question {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.75rem;
+}
+
+.faq-answer {
+  margin-top: 10px;
+  font-size: 1.25rem;
+  overflow: hidden;
+}
+
 .form-container {
   display: -webkit-box;
   display: -ms-flexbox;
