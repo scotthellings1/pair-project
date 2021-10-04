@@ -9,12 +9,16 @@
 </div>
 
 <div class="container">
+
+  <h2 class="services-intro-heading"> Accountancy Services in and around Wymondham Norfolk </h2>
+  <p class="services-intro-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, atque doloremque,
+    ducimus eveniet harum in, iusto nemo non obcaecati pariatur perferendis placeat quaerat recusandae rem temporibus unde voluptates voluptatibus voluptatum. Aspernatur at beatae illo porro quas quisquam quo ratione saepe, temporibus veritatis. Nisi, recusandae veritatis.</p>
   <div class="cards">
     <div class="card-1">
       <div class="hex-card ">
         <div class="hex1">
           <div class="hex2">
-            <h2>VAT</h2>
+            <h3>Accounts</h3>
             <div class="icon"></div>
             <div class="card-content">
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium cum et impedit ipsam iste iure
@@ -31,7 +35,7 @@
       <div class="hex-card ">
         <div class="hex1">
           <div class="hex2">
-            <h2>VAT</h2>
+            <h3>Bookkeeping</h3>
             <div class="icon"></div>
             <div class="card-content">
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium cum et impedit ipsam iste iure
@@ -48,7 +52,7 @@
       <div class="hex-card ">
         <div class="hex1">
           <div class="hex2">
-            <h2>VAT</h2>
+            <h3>Payroll</h3>
             <div class="icon"></div>
             <div class="card-content">
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium cum et impedit ipsam iste iure
@@ -65,7 +69,7 @@
       <div class="hex-card ">
         <div class="hex1">
           <div class="hex2">
-            <h2>VAT</h2>
+            <h3>VAT</h3>
             <div class="icon"></div>
             <div class="card-content">
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium cum et impedit ipsam iste iure
@@ -82,7 +86,7 @@
       <div class="hex-card ">
         <div class="hex1">
           <div class="hex2">
-            <h2>VAT</h2>
+            <h3>Taxation Services</h3>
             <div class="icon"></div>
             <div class="card-content">
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium cum et impedit ipsam iste iure

@@ -905,6 +905,19 @@ footer .line {
   height: 100%;
 }
 
+.services-intro-heading {
+  font-size: 1.75rem;
+  text-align: center;
+  margin-top: 1.5rem;
+  color: #23284B;
+  font-weight: 600;
+}
+
+.services-intro-text {
+  font-size: 1.025rem;
+  margin-top: 1rem;
+}
+
 .cards {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -965,7 +978,7 @@ footer .line {
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
 }
-.hex-card .hex2 h2 {
+.hex-card .hex2 h3 {
   font-size: 2rem;
   margin-bottom: 1.5rem;
 }
