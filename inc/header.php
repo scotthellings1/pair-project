@@ -6,6 +6,7 @@
           content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/pair-project/css/styles.css">
+    <script src="/pair-project/js/app.js" defer></script>
     <link rel="icon" href="/pair-project/img/logo-sm.jpeg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
