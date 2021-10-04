@@ -859,6 +859,14 @@ b {
   text-align: center;
 }
 
+.map-title {
+  margin: 10px;
+}
+
+.map-info {
+  margin: 10px;
+}
+
 .form-wrapper {
   width: 100%;
   background-color: #23284B;
