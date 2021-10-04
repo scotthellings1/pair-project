@@ -45,8 +45,22 @@
     <p class="copy-txt"> Copyright &copy; Sharon Wray Accountancy Services. All Rights Reserved 2021. - Sitemap</p>
   </div>
 </footer>
-
 <!-- footer end -->
+
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+crossorigin=""></script>
+
+<script src="/pair-project/js/leafMap.js"></script>
+
+<script src="https://www.google.com/recaptcha/enterprise.js?render=6LdBI6ocAAAAAMuVVpHs-kpcA1w8bzRs_QT0y9X4"></script>
+<script>
+grecaptcha.enterprise.ready(function() {
+    grecaptcha.enterprise.execute('6LdBI6ocAAAAAMuVVpHs-kpcA1w8bzRs_QT0y9X4', {action: 'login'}).then(function(token) {
+       ...
+    });
+});
+</script>
 
 </body>
 </html>
