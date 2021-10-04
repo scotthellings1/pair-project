@@ -4,8 +4,34 @@ include($_SERVER['DOCUMENT_ROOT'] . "/pair-project/inc/dbh.php");
 ?>
 
 <div class="container contact-pg-container">
-
-  <div id="mapid"></div>
+  <div class="map-wrapper">
+    <h1 class="map-title">Find Us:</h1>
+    <div id="mapid"></div>
+    <div class="map-info">
+      <p class="map-p">
+        <a href="">
+          Tel:0*9*3 *8*9*5
+        </a>
+      </p>
+      <p class="map-p">
+        <a href="">
+          Mob:
+        </a>
+      </p>
+      <p class="map-p">
+        <a href="">
+          Email:
+        </a>
+      </p>
+      <address class="map-address">
+        Sharon Wray Accountancy Services <br>
+        38a Barnham Broom Road           <br>
+        Wymondham                        <br>
+        Norfolk                          <br>
+        NR18 0DF
+      </address>
+    </div>
+  </div>
 
   <div class=" container form-wrapper">
 
