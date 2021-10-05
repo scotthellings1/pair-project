@@ -11,9 +11,18 @@ menuButton.addEventListener('click', function (e) {
     hamburger.classList.toggle('is-active')
 
 })
-
-faqs.forEach(faq => {
-    faq.addEventListener('click', () => {
-        faq.classList.toggle('open')
-    })
-})
+//polyfill for forEach for IE
+if (typeof window !== 'undefined' &&  window.NodeList && !NodeList.prototype.forEach) {
+    NodeList.prototype.forEach = function (callback, thisArg) {
+        thisArg = thisArg || window;
+        for (var i = 0; i < this.length; i++) {
+            callback.call(thisArg, this[i], i, this);
+        }
+    };
+}
+// end of polyfill
+faqs.forEach(function (faq) {
+    faq.addEventListener("click", function () {
+        faq.classList.toggle("open");
+    });
+});
