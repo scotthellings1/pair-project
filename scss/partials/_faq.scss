@@ -48,22 +48,35 @@
   &:last-child {
     border-bottom: none;
   }
+  &.open {
+    .faq-answer {
+      max-height: 300px;
+    }
+    .faq-icon {
+      transform: rotate(90deg);
+    }
+  }
 }
 .faq-icon {
   color: $white;
   height: 30px;
   width: 30px;
+  transition: 300ms ease-in-out;
 }
+.faq-answer {
+   margin-top: 10px;
+   font-size: 1.25rem;
+  font-weight: 400;
+   max-height: 0;
+   line-height: 1.6;
+   overflow: hidden;
+   transition: all 300ms ease-in-out;
+
+ }
 .faq-question {
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 1.75rem;
-}
-.faq-answer {
-  margin-top: 10px;
-  font-size: 1.25rem;
-  //height: 0;
-  overflow: hidden;
-
+  cursor: pointer;
 }

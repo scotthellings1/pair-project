@@ -3,7 +3,7 @@
 // dbh = database handler
 
 // the servername, username and password given here are default on xammp
-$dbServerName = "localhost";
+$dbServerName = "127.0.0.1";
 $dbUserName = "root";
 $dbPassword = "";
 $dbName = "wray_contact_form";
