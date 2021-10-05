@@ -6,7 +6,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  min-height: 300px;
+  min-height: 100px;
+  @include mq(md){
+    min-height:  200px;
+  }
+  @include mq(lg){
+    min-height: 300px;
+    }
 
 }
 
@@ -29,14 +35,23 @@
   justify-content: center;
   align-items: center;
   color: $white;
-  font-size: 2rem;
+  font-size: 1rem;
+  @include mq(md){
+    font-size: 1.5rem;
+  }
+  @include mq(lg){
+    font-size: 2rem;
+  }
   font-weight: bold;
   height: 100%;
 }
 
 .faqs {
   margin: 4em 0;
-  padding: 25px 50px ;
+  @include mq(md) {
+    padding: 25px 50px ;
+  }
+  padding: 12px 25px ;
   border-radius: 20px;
   background: lighten($blue, 5%) ;
   color: $white;
@@ -44,7 +59,15 @@
 }
 .faq-item{
   border-bottom: 1px solid $white;
+  padding: 0.5rem 0;
+  @include mq(md) {
+    padding: 1rem 0;
+
+  }
+  @include mq(lg) {
   padding: 1.5rem 0;
+
+  }
   &:last-child {
     border-bottom: none;
   }
@@ -65,7 +88,13 @@
 }
 .faq-answer {
    margin-top: 10px;
+  font-size: 0.875rem;
+  @include mq(md) {
+    font-size: 1.125rem;
+  }
+  @include mq(lg) {
    font-size: 1.25rem;
+  }
   font-weight: 400;
    max-height: 0;
    line-height: 1.6;
@@ -77,6 +106,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  line-height: 1.5;
+  @include mq(md) {
+    font-size: 1.5rem;
+  }
+  @include mq(lg) {
   font-size: 1.75rem;
+  }
   cursor: pointer;
 }

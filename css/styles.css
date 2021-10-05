@@ -878,7 +878,17 @@ footer .line {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  min-height: 300px;
+  min-height: 100px;
+}
+@media screen and (min-width: 992px) {
+  .services-page-header {
+    min-height: 200px;
+  }
+}
+@media screen and (min-width: 1260px) {
+  .services-page-header {
+    min-height: 300px;
+  }
 }
 
 .overlay {
@@ -902,9 +912,19 @@ footer .line {
       -ms-flex-align: center;
           align-items: center;
   color: #FFFFFF;
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: bold;
   height: 100%;
+}
+@media screen and (min-width: 992px) {
+  .content {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 1260px) {
+  .content {
+    font-size: 2rem;
+  }
 }
 
 .services-intro-heading {
@@ -1023,7 +1043,17 @@ footer .line {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  min-height: 300px;
+  min-height: 100px;
+}
+@media screen and (min-width: 992px) {
+  .faq-page-header {
+    min-height: 200px;
+  }
+}
+@media screen and (min-width: 1260px) {
+  .faq-page-header {
+    min-height: 300px;
+  }
 }
 
 .overlay {
@@ -1047,22 +1077,47 @@ footer .line {
       -ms-flex-align: center;
           align-items: center;
   color: #FFFFFF;
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: bold;
   height: 100%;
+}
+@media screen and (min-width: 992px) {
+  .content {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 1260px) {
+  .content {
+    font-size: 2rem;
+  }
 }
 
 .faqs {
   margin: 4em 0;
-  padding: 25px 50px;
+  padding: 12px 25px;
   border-radius: 20px;
   background: #2b315c;
   color: #FFFFFF;
 }
+@media screen and (min-width: 992px) {
+  .faqs {
+    padding: 25px 50px;
+  }
+}
 
 .faq-item {
   border-bottom: 1px solid #FFFFFF;
-  padding: 1.5rem 0;
+  padding: 0.5rem 0;
+}
+@media screen and (min-width: 992px) {
+  .faq-item {
+    padding: 1rem 0;
+  }
+}
+@media screen and (min-width: 1260px) {
+  .faq-item {
+    padding: 1.5rem 0;
+  }
 }
 .faq-item:last-child {
   border-bottom: none;
@@ -1085,13 +1140,23 @@ footer .line {
 
 .faq-answer {
   margin-top: 10px;
-  font-size: 1.25rem;
+  font-size: 0.875rem;
   font-weight: 400;
   max-height: 0;
   line-height: 1.6;
   overflow: hidden;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
+}
+@media screen and (min-width: 992px) {
+  .faq-answer {
+    font-size: 1.125rem;
+  }
+}
+@media screen and (min-width: 1260px) {
+  .faq-answer {
+    font-size: 1.25rem;
+  }
 }
 
 .faq-question {
@@ -1104,8 +1169,18 @@ footer .line {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 1.75rem;
+  line-height: 1.5;
   cursor: pointer;
+}
+@media screen and (min-width: 992px) {
+  .faq-question {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 1260px) {
+  .faq-question {
+    font-size: 1.75rem;
+  }
 }
 
 .contact-pg-container {
