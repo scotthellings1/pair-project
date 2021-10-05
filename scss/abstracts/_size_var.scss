@@ -1,0 +1,9 @@
+// Arrow width is 100% of .container minus the offset of the pseudo-element.
+$arrow-w: calc(100% - 50px);
+$arrow-h: 100px;
+// Arrow border is half height.
+$arrow-border: 50px;
+$arrow-offset: -50px
+
+// $inner-arr-h: 195px;
+// $inner-arr-w: 39.5px;

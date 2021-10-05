@@ -1,5 +1,14 @@
 @use '../abstracts' as *;
 
+.contact-page-header {
+  position: relative;
+  background-image: url("/pair-project/img/contact-us-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 300px;
+}
+
 .contact-pg-container {
   display: flex;
   justify-content: center;

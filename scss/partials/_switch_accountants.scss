@@ -1,0 +1,92 @@
+@use '../abstracts' as *;
+
+.accountant-page-header {
+  position: relative;
+  background-image: url("/pair-project/img/accountant-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 300px;
+}
+
+
+
+.arrow {
+  display: none;
+  @include mq(xs) {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: $arrow-w;
+    height: $arrow-h;
+    position: relative;
+    background: lighten($blue, 15%);
+    margin: 20px 0;
+  }
+}
+
+.arrow:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: $arrow-border solid white;
+  border-top: $arrow-border  solid transparent;
+  border-bottom: $arrow-border  solid transparent;
+}
+
+.arrow:before {
+  content: "";
+  position: absolute;
+  right: $arrow-offset;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: $arrow-border solid lighten($blue, 15%);
+  border-top: $arrow-border  solid transparent;
+  border-bottom: $arrow-border solid transparent;
+}
+
+.arrow-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding-left: 60px;
+  color: white;
+
+}
+
+.circle{
+  height:60px !important;
+  width: 60px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    flex-shrink: 0;
+  border-radius: 50%;
+  border: solid 3px $white;
+  margin-right: 20px;
+}
+
+.info-square {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  height: 125px;
+  padding: 10px;
+  width: 100%;
+  color: white;
+  background-color: lighten($blue, 15%);
+  margin: 15px 0;
+  @include mq(xs) {
+    display: none;
+  };
+}

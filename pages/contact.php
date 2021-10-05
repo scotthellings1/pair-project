@@ -3,7 +3,7 @@ include($_SERVER['DOCUMENT_ROOT'] . "/pair-project/inc/header.php");
 include($_SERVER['DOCUMENT_ROOT'] . "/pair-project/inc/dbh.php");
 ?>
 
-<div class="services-page-header">
+<div class="contact-page-header">
   <div class="overlay">
     <div class="content">
       <h1>Contact Us</h1>
