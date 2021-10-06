@@ -16,6 +16,9 @@ header {
     display: flex;
     background: $blue;
     justify-content: space-around;
+    @include mq(sm) {
+      justify-content: space-between;
+    }
     align-items: center;
     padding: 1.5em 0;
 
@@ -37,13 +40,14 @@ header {
     color: $white;
     justify-content: space-between;
     align-items: center;
-    font-size: 0.7rem;
+    font-size: 0.975rem;
+    padding-left: 20px;
+
     @include mq(sm) {
       display: flex;
-
     }
     @include mq(md) {
-      font-size: 0.975rem;
+      font-size: 1.125rem;
     }
     @include mq(lg) {
       font-size: 1.25rem;
@@ -57,7 +61,11 @@ header {
   }
 
   .header-link {
+
+    margin-right: 1em;
+    @include mq(lg) {
     margin-right: 2em;
+    }
     position: relative;
 
     &:last-child {

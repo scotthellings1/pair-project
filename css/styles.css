@@ -111,6 +111,13 @@ header .header {
           align-items: center;
   padding: 1.5em 0;
 }
+@media screen and (min-width: 768px) {
+  header .header {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
 header .logo img {
   width: 175px;
   height: auto;
@@ -134,7 +141,8 @@ header .header-links {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 0.7rem;
+  font-size: 0.975rem;
+  padding-left: 20px;
 }
 @media screen and (min-width: 768px) {
   header .header-links {
@@ -145,7 +153,7 @@ header .header-links {
 }
 @media screen and (min-width: 992px) {
   header .header-links {
-    font-size: 0.975rem;
+    font-size: 1.125rem;
   }
 }
 @media screen and (min-width: 1260px) {
@@ -158,8 +166,13 @@ header .header-links a {
   color: #FFFFFF;
 }
 header .header-link {
-  margin-right: 2em;
+  margin-right: 1em;
   position: relative;
+}
+@media screen and (min-width: 1260px) {
+  header .header-link {
+    margin-right: 2em;
+  }
 }
 header .header-link:last-child {
   margin: 0;
