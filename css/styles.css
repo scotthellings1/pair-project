@@ -874,7 +874,7 @@ footer .line {
 
 .services-page-header {
   position: relative;
-  background-image: url("/img/services-header.jpg");
+  background-image: url("../img/services-header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -1096,7 +1096,7 @@ footer .line {
   margin: 4em 0;
   padding: 12px 25px;
   border-radius: 20px;
-  background: #2b315c;
+  background: #3b447f;
   color: #FFFFFF;
 }
 @media screen and (min-width: 992px) {
