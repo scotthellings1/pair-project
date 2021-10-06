@@ -9,7 +9,18 @@
   min-height: 300px;
 }
 
+.accountant-title {
+  font-size: 1.75rem;
+  text-align: center;
+  margin-top: 1.5rem;
+  color: $blue;
+  font-weight: 600;
+}
 
+.accountant-p {
+  font-size: 1.025rem;
+  margin-top: 1rem;
+}
 
 .arrow {
   display: none;
