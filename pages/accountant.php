@@ -1,4 +1,4 @@
-<?php include($_SERVER['DOCUMENT_ROOT'] . "/pair-project/inc/header.php");  ?>
+<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/header.php");  ?>
 
 <div class="accountant-page-header">
   <div class="overlay">
@@ -11,7 +11,11 @@
   <div class="acc-title-txt">
     <h1 class="accountant-title">How to Switch Accountants</h1>
     <p  class="accountant-p">
-      Switching accountants is a 4 step process:
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus beatae
+      delectus minus ipsa incidunt ipsam dolore totam sint magnam quas optio
+      placeat excepturi laudantium reiciendis aliquam non ad a debitis mollitia,
+      ducimus laborum nam. Aspernatur laborum, sequi nulla eaque ut! <br><br>
+      <b>Switching accountants is a 4 step process:</b>
     </p>
   </div>
   <div class="arrow-wrapper">
@@ -95,4 +99,4 @@
   </div>
 </div>
 
-<?php include($_SERVER['DOCUMENT_ROOT'] . "/pair-project/inc/footer.php"); ?>
+<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/footer.php"); ?>
