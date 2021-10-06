@@ -1,4 +1,4 @@
-<?php include($_SERVER['DOCUMENT_ROOT'] ."/pair-project/inc/header.php");  ?>
+<?php include($_SERVER['DOCUMENT_ROOT'] ."/inc/header.php");  ?>
 <!-- header end -->
     <div class="hero-img">
       <div class="container hero-container">
@@ -10,7 +10,7 @@
           </h1>
           <div class="line"></div>
           <h2 class="hero-txt-2">
-            proffesional and affordable <br> service, contact us today <br>
+            professional and affordable <br> service, contact us today <br>
             for a free consultation
           </h2>
           <div class="buttons">
@@ -85,4 +85,4 @@
     </div>
     <!-- testimony end -->
     <!-- footer start  -->
-<?php include($_SERVER['DOCUMENT_ROOT'] ."/pair-project/inc/footer.php");  ?>
+<?php include($_SERVER['DOCUMENT_ROOT'] ."/inc/footer.php");  ?>

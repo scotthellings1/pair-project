@@ -1,0 +1,22 @@
+.inner-arrow-wrapper {
+}
+
+.arrow-in {
+  width: 195px;
+  height: 19.5px;
+  position: relative;
+  background: $white;
+  border-left: solid 30px $blue;
+}
+
+.arrow-in:before {
+  content: "";
+  position: absolute;
+  right: -9.75px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 9.75px solid $white;
+  border-top: 9.75px solid transparent;
+  border-bottom: 9.75px solid transparent;
+}

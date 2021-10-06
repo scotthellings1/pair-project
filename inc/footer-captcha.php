@@ -3,8 +3,8 @@
     <div class="footer">
       <div class="nav">
         <div class="license">
-          <div class="aat-logo"><img src="/pair-project/img/aat-licensed-accountant.png" alt=""></div>
-          <div class="xero-logo"><img src="/pair-project/img/certificate.png" alt=""></div>
+          <div class="aat-logo"><img src="/img/aat-licensed-accountant.png" alt=""></div>
+          <div class="xero-logo"><img src="/img/certificate.png" alt=""></div>
           <div class="license-p">
             <p>AAT licensed accountant with over 15 years of accountancy experience.</p>
             <p>My services include bookeeping, full accounts production, payroll, VAT and tax.</p>
@@ -26,12 +26,12 @@
         <div class="sections">
           <h3 class="section-title">Sections</h3>
           <ul class="sections-list">
-            <li class="sections-items"><a href="/pair-project/pages/services.php">My Services</a></li>
-            <li class="sections-items"><a href="/pair-project/pages/accountant.php">Switch Accountants</a></li>
-            <li class="sections-items"><a href="/pair-project/pages/faq.php">FAQ's</a></li>
-            <li class="sections-items"><a href="/pair-project/pages/contact.php">Contact Us</a></li>
-            <li class="sections-items"><a href="/pair-project/pages/privacy.php">Privacy Policy</a></li>
-            <li class="sections-items"><a href="/pair-project/pages/t&c.php">Terms & Conditions</a></li>
+            <li class="sections-items"><a href="/pages/services.php">My Services</a></li>
+            <li class="sections-items"><a href="/pages/accountant.php">Switch Accountants</a></li>
+            <li class="sections-items"><a href="/pages/faq.php">FAQ's</a></li>
+            <li class="sections-items"><a href="/pages/contact.php">Contact Us</a></li>
+            <li class="sections-items"><a href="/pages/privacy.php">Privacy Policy</a></li>
+            <li class="sections-items"><a href="/pages/t&c.php">Terms & Conditions</a></li>
           </ul>
         </div>
       </div>
@@ -51,7 +51,7 @@
 integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
 crossorigin=""></script>
 
-<script src="/pair-project/js/leafMap.js"></script>
+<script src="/js/leafMap.js"></script>
 
 <script src="https://www.google.com/recaptcha/enterprise.js?render=6LdBI6ocAAAAAMuVVpHs-kpcA1w8bzRs_QT0y9X4"></script>
 <script>

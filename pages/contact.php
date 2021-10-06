@@ -1,9 +1,9 @@
 <?php
-include($_SERVER['DOCUMENT_ROOT'] . "/pair-project/inc/header.php");
-include($_SERVER['DOCUMENT_ROOT'] . "/pair-project/inc/dbh.php");
+include($_SERVER['DOCUMENT_ROOT'] . "/inc/header.php");
+include($_SERVER['DOCUMENT_ROOT'] . "/inc/dbh.php");
 ?>
 
-<div class="services-page-header">
+<div class="contact-page-header">
   <div class="overlay">
     <div class="content">
       <h1>Contact Us</h1>
@@ -55,7 +55,7 @@ include($_SERVER['DOCUMENT_ROOT'] . "/pair-project/inc/dbh.php");
       </p>
     </div>
 
-    <form class="contact-form" action="/pair-project/inc/submit.php" method="POST">
+    <form class="contact-form" action="/inc/submit.php" method="POST">
       <div class="flex-form form-top">
         <input required class="first-name input" type="text" name="first"
         placeholder="First Name*">
@@ -97,4 +97,4 @@ include($_SERVER['DOCUMENT_ROOT'] . "/pair-project/inc/dbh.php");
 
 <script src="https://www.google.com/recaptcha/enterprise.js?render=6LdBI6ocAAAAAMuVVpHs-kpcA1w8bzRs_QT0y9X4"></script>
 
-<?php include($_SERVER['DOCUMENT_ROOT'] . "/pair-project/inc/footer-captcha.php"); ?>
+<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/footer-captcha.php"); ?>
