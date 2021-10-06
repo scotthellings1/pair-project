@@ -10,7 +10,7 @@
           </h1>
           <div class="line"></div>
           <h2 class="hero-txt-2">
-            proffesional and affordable <br> service, contact us today <br>
+            professional and affordable <br> service, contact us today <br>
             for a free consultation
           </h2>
           <div class="buttons">
