@@ -3,7 +3,7 @@
 .contact {
   height: auto;
   width: 100%;
-  background-color: $blue;
+  background-color: lighten($blue, 15%);
 
   @include mq(sm) {
     height: 150px;

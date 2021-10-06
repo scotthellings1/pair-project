@@ -567,7 +567,7 @@ header .mobile-header-link:hover {
 .contact {
   height: auto;
   width: 100%;
-  background-color: #23284B;
+  background-color: #3b447f;
 }
 @media screen and (min-width: 768px) {
   .contact {
@@ -1202,7 +1202,18 @@ footer .line {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  min-height: 300px;
+  min-height: 100px;
+  margin-bottom: 4rem;
+}
+@media screen and (min-width: 992px) {
+  .contact-page-header {
+    min-height: 200px;
+  }
+}
+@media screen and (min-width: 1260px) {
+  .contact-page-header {
+    min-height: 300px;
+  }
 }
 
 .contact-pg-container {
@@ -1246,13 +1257,13 @@ footer .line {
 .map-wrapper {
   width: 100%;
   color: #FFFFFF;
-  background-color: #23284B;
+  background-color: #3b447f;
   margin-top: 15px;
   border-radius: 5px;
 }
 @media screen and (min-width: 768px) {
   .map-wrapper {
-    margin: 15px 15px 15px 0;
+    margin: 15px 15px 79px 0;
   }
 }
 
@@ -1262,7 +1273,7 @@ footer .line {
   max-height: none;
   border-radius: 5px;
   margin-top: 15px;
-  border: 10px #23284B solid;
+  border: 10px #3b447f solid;
 }
 
 b {
@@ -1285,7 +1296,7 @@ b {
 
 .form-wrapper {
   width: 100%;
-  background-color: #23284B;
+  background-color: #3b447f;
   border-radius: 5px;
   margin: 15px 0;
   padding: 5px;
