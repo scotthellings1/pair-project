@@ -1,4 +1,4 @@
-<?php include($_SERVER['DOCUMENT_ROOT'] . "/pair-project/inc/header.php");  ?>
+<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/header.php");  ?>
 
 <div class="accountant-page-header">
   <div class="overlay">
@@ -95,4 +95,4 @@
   </div>
 </div>
 
-<?php include($_SERVER['DOCUMENT_ROOT'] . "/pair-project/inc/footer.php"); ?>
+<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/footer.php"); ?>

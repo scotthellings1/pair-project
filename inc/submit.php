@@ -1,4 +1,4 @@
-<?php include_once($_SERVER['DOCUMENT_ROOT'] . "/pair-project/inc/dbh.php");
+<?php include_once($_SERVER['DOCUMENT_ROOT'] . "inc/dbh.php");
 /*
   This file deals with entering the contact information into the database. It
   also uses the variables created for the db entry to send an email with some of

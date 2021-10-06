@@ -874,7 +874,7 @@ footer .line {
 
 .services-page-header {
   position: relative;
-  background-image: url("/pair-project/img/services-header.jpg");
+  background-image: url("/img/services-header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -1095,7 +1095,7 @@ footer .line {
 
 .contact-page-header {
   position: relative;
-  background-image: url("/pair-project/img/contact-us-header.jpg");
+  background-image: url("/img/contact-us-header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -1405,7 +1405,7 @@ b {
 
 .accountant-page-header {
   position: relative;
-  background-image: url("/pair-project/img/accountant-header.jpg");
+  background-image: url("/img/accountant-header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
