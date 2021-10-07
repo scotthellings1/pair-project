@@ -3015,3 +3015,27 @@ b {
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
 }
+
+.privacy {
+  width: 90vw;
+  max-width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+.privacy ul li {
+  list-style: disc;
+  padding: 0.25rem;
+}
+.privacy p {
+  margin-bottom: 1em;
+}
+.privacy h1 {
+  font-size: 2rem;
+  margin-bottom: 1em;
+}
+.privacy h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1em;
+}
