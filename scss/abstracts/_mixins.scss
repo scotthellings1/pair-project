@@ -1,9 +1,10 @@
 // map of breakpoint values
 $breakpoints: (
-        xs: 550px,
-        sm: 768px,
-        md: 992px,
-        lg: 1260px
+        xxs: 400px,
+        xs:  550px,
+        sm:  768px,
+        md:  992px,
+        lg:  1260px
 );
 
 @mixin mq($breakpoint) {

@@ -142,6 +142,7 @@ b {
 
 .contact-p {
   font-size: 17px;
+  max-width: 75ch;
 }
 
 .contact-form {
@@ -222,7 +223,8 @@ b {
 
 .btn-tickbox-wrapper {
 display: flex;
-align-items: center;
+align-items: space-between;
+width: 100%;
 margin: 20px 0px;
 @include mq(sm) {
   margin-top: 30px;
@@ -260,4 +262,11 @@ padding-left: 15px;
   cursor: pointer;
   background-color: $white;
   color: $blue;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .form-button{
+    min-width: 70px;
+    padding: 0;
+  }
 }

@@ -431,6 +431,7 @@ header .mobile-header-link:hover {
 
 .btn-1,
 .btn-2 {
+  text-decoration: none;
   width: 100%;
   -ms-flex-preferred-size: 40%;
       flex-basis: 40%;
@@ -1457,6 +1458,7 @@ b {
 
 .contact-p {
   font-size: 17px;
+  max-width: 75ch;
 }
 
 .contact-form {
@@ -1589,9 +1591,10 @@ b {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: space-between;
+      -ms-flex-align: space-between;
+          align-items: space-between;
+  width: 100%;
   margin: 20px 0px;
 }
 @media screen and (min-width: 768px) {
@@ -1639,6 +1642,12 @@ b {
   color: #23284B;
 }
 
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .form-button {
+    min-width: 70px;
+    padding: 0;
+  }
+}
 .accountant-page-header {
   position: relative;
   background-image: url("/img/accountant-header.jpg");
@@ -1646,6 +1655,10 @@ b {
   background-size: cover;
   width: 100%;
   min-height: 300px;
+}
+
+.accountant-wrapper {
+  margin: 60px auto;
 }
 
 .accountant-title {
