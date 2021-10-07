@@ -12,10 +12,21 @@
 
 .hero-container {
   display: flex;
+  width: 100%;
+  @include mq(sm) {
+   width: 750px;
+  }
+  @include mq(md) {
+   width: 950px;
+  }
+  @include mq(lg) {
+   width: 1200px;
+  }
 }
 
 .empty-aligner {
   flex-basis: 0%;
+  width: 100%;
 }
 
 .empty-aligner,
@@ -145,4 +156,14 @@
 .btn-2:hover,
 .contact-btn {
   cursor: pointer;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .buttons {
+    width: 500px;
+    height: auto;
+  }
+  .hero-txt-2 br {
+    display: inline-block;
+  }
 }

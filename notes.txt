@@ -1,0 +1,10 @@
+IE FIXES
+--------
+
+send button on contact
+
+hero buttons + text
+text on the contact us part of home page + button text wraps at higher size
+text on welcome section of home page and image spread to the Rights
+
+services - hexagons

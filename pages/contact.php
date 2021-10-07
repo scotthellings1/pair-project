@@ -17,17 +17,17 @@ include($_SERVER['DOCUMENT_ROOT'] . "/inc/dbh.php");
     <div id="mapid"></div>
     <div class="map-info">
       <p class="map-p">
-        <a href="">
+        <a href="tel:123-456-7890">
           <b>Tel:</b>  12345 678910 <br>
         </a>
       </p>
       <p class="map-p">
-        <a href="">
+        <a href="tel:123-456-7890">
           <b>Mob:</b>  098097 3768<br>
         </a>
       </p>
       <p class="map-p">
-        <a href="">
+        <a href="mailto:someone@example.com">
           <b>Email:</b>  sharon-wray@fake.com <br>
         </a>
       </p>

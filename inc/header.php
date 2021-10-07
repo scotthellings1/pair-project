@@ -38,7 +38,7 @@
             <a href="/pages/contact.php">Contact Us</a>
           </li>
           <li class="mobile-header-link">
-            <a href="#">
+          <a href="tel:123-456-7890">
           <span>
                 <svg xmlns="http://www.w3.org/2000/svg"
                      class="phone-icon"
@@ -69,7 +69,7 @@
         <li class="header-link">
           <a href="/pages/contact.php">Contact Us</a>
         </li>
-        <li class="header-link"><a href="#">
+        <li class="header-link"><a href="tel:123-456-7890">
                 <span>
                 <svg xmlns="http://www.w3.org/2000/svg"
                      class="phone-icon"
