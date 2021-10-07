@@ -269,11 +269,28 @@ header .mobile-header-link:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .hero-container {
+    width: 750px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .hero-container {
+    width: 950px;
+  }
+}
+@media screen and (min-width: 1260px) {
+  .hero-container {
+    width: 1200px;
+  }
 }
 
 .empty-aligner {
   -ms-flex-preferred-size: 0%;
       flex-basis: 0%;
+  width: 100%;
 }
 
 @media screen and (min-width: 992px) {
@@ -449,6 +466,16 @@ header .mobile-header-link:hover {
   cursor: pointer;
 }
 
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .buttons {
+    width: 500px;
+    height: auto;
+  }
+
+  .hero-txt-2 br {
+    display: inline-block;
+  }
+}
 .about {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -797,6 +824,10 @@ footer .line {
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
+}
+
+.license {
+  width: 100%;
 }
 
 .aat-logo, .xero-logo {
@@ -1535,7 +1566,7 @@ b {
 }
 
 .accountant-p {
-  font-size: 1.025rem;
+  font-size: 1.25rem;
   margin-top: 1rem;
 }
 
@@ -1603,6 +1634,7 @@ b {
       flex-wrap: nowrap;
   padding-left: 60px;
   color: white;
+  font-size: 1.25rem;
 }
 
 .circle {

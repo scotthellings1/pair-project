@@ -57,7 +57,7 @@ crossorigin=""></script>
 <script>
 grecaptcha.enterprise.ready(function() {
     grecaptcha.enterprise.execute('6LdBI6ocAAAAAMuVVpHs-kpcA1w8bzRs_QT0y9X4', {action: 'login'}).then(function(token) {
-       ...
+      // deleted ...
     });
 });
 </script>

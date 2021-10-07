@@ -1,7 +1,7 @@
 const menuButton = document.querySelector('.menu-btn')
 const mobileMenu = document.querySelector('.mobile-menu')
-const hamburger = document.querySelector('.hamburger')
-const faqs = document.querySelectorAll('.faq-item')
+const hamburger  = document.querySelector('.hamburger')
+const faqs       = document.querySelectorAll('.faq-item')
 
 menuButton.addEventListener('click', function (e) {
     if (window.innerWidth >= 753) {
@@ -21,6 +21,7 @@ if (typeof window !== 'undefined' &&  window.NodeList && !NodeList.prototype.for
     };
 }
 // end of polyfill
+
 faqs.forEach(function (faq) {
     faq.addEventListener("click", function () {
         faq.classList.toggle("open");
