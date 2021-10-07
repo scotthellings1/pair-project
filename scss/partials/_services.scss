@@ -148,6 +148,16 @@
     }
   }
 }
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .card-1,
+  .card-2,
+  .card-4,
+  .card-5,
+  .card-3 {
+    margin-right: 0;
+  }
+}
 //@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
 //
 //    .card-1,
