@@ -101,6 +101,9 @@
     .card-content {
       align-self: stretch;
       padding-right: 0;
+      @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+        padding-right: 20px;
+      }
     }
   }
 }
@@ -111,10 +114,17 @@
   .card-4,
   .card-5 {
     flex-basis: 36%;
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      margin-left: 45px;
+    }
   }
   .card-3 {
     flex-basis: 100%;
     margin-left: 275px;
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      margin-left: 312px;
+    }
+
   }
 }
 @include mq(lg) {
@@ -125,5 +135,34 @@
   .card-3 {
     flex-basis: initial;
     margin: 0;
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      margin-top: 0;
+      margin-left: -60px;
+    }
   }
 }
+@include mq(lg) {
+  .card-3 {
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      margin-left: 345px;
+    }
+  }
+}
+//@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+//
+//    .card-1,
+//    .card-2,
+//    .card-3,
+//    .card-4,
+//    .card-5 {
+//
+//      margin-top: 0;
+//      margin-left: -60px;
+//    }
+//    .card-3 {
+//      @include mq(xs) {
+//        margin-left: 0;
+//      }
+//      margin-left: 345px;
+//    }
+//}
