@@ -94,3 +94,34 @@
     flex-basis: 40%;
   }
 }
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .contact-txt {
+    width: 350px;
+    @include mq(xs) {
+      width: 425px;
+    }
+    @include mq(sm) {
+      width: 425px;
+    }
+    @include mq(md) {
+      width: 600px;
+    }
+    @include mq(lg) {
+      width: 700px;
+    }
+  }
+  .contact-btn{
+    text-decoration: none;
+    @include mq(md){
+      font-size: 20px;
+    }
+    @include mq(lg){
+      font-size: 30px;
+    }
+  }
+  .no-underline-link{
+    text-decoration: none;
+  }
+
+}

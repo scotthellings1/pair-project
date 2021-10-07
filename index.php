@@ -59,13 +59,16 @@
     <div class="contact">
       <div class="container contact-container">
         <p class="contact-txt">
-          Book your <b>FREE</b> accountancy consultation today by contacting <br> me on
-          <a href="">07894067905</a> or by email:
-          <a href="">accounts@sharonwray.co.uk</a>, <br>
-          alternatively fill out my online contact form
+          Book your <b>FREE</b> accountancy consultation today by contacting
+          <br> me on
+          <a href="tel:123-456-7890">07894067905</a> or by email:
+          <a href="mailto:someone@example.com">accounts@sharonwray.co.uk</a>,
+          <br> alternatively fill out my online contact form
         </p>
         <div class="btn-container">
-          <div class="contact-btn">contact us today</div>
+          <a href="/pages/contact.php" class="no-underline-link">
+            <div class="contact-btn">contact us today</div>
+          </a>
         </div>
       </div>
     </div>
