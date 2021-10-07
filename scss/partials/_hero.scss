@@ -160,8 +160,14 @@
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   .buttons {
-    width: 500px;
+    width: 350px;
     height: auto;
+    @include mq(xs) {
+      width: 400px;
+    }
+    @include mq(sm) {
+      width: 500px; 
+    }
   }
   .hero-txt-2 br {
     display: inline-block;
