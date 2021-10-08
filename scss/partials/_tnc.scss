@@ -1,3 +1,5 @@
+@use '../abstracts' as *;
+
 .tc-page-header {
   position: relative;
   background-image: url("../img/t&c.jpg");
@@ -26,9 +28,12 @@
 }
 
 .tc-p {
-
+   width: 100%;
  font-size: 15px;
  margin-top: 10px;
+ @include mq(sm){
+   width: 75ch;
+ }
  @include mq(md){
    width: 75ch;
  }

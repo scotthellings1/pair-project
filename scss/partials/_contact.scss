@@ -30,9 +30,6 @@
   letter-spacing: 0.7px;
   line-height: 25px;
   margin: 15px 0 15px 0;
-  @include mq(xs) {
-    width: 425px;
-  }
   @include mq(sm) {
     width: 425px;
   }
