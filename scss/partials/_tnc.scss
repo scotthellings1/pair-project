@@ -1,0 +1,40 @@
+.tc-page-header {
+  position: relative;
+  background-image: url("../img/t&c.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 300px;
+}
+
+.tc-container {
+  margin: 60px auto;
+}
+
+.tc-h2 {
+  width: 75ch;
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.tc-p {
+ width: 75ch;
+ font-size: 15px;
+ margin-top: 10px;
+}
+
+.tc-ul {
+
+}
+
+.tc-li {
+  margin: 10px 0px;
+  width: 60ch;
+}
+
+.tc-end {
+  margin-top: 50px;
+  font-size: 20px;
+}
