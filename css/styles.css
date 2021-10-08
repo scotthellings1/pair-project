@@ -431,6 +431,7 @@ header .mobile-header-link:hover {
 
 .btn-1,
 .btn-2 {
+  text-decoration: none;
   width: 100%;
   -ms-flex-preferred-size: 40%;
       flex-basis: 40%;
@@ -677,7 +678,6 @@ header .mobile-header-link:hover {
 
 .contact-txt {
   color: #FFFFFF;
-  text-decoration: none;
   font-size: 20px;
   font-weight: regular 400;
   letter-spacing: 0.7px;
@@ -726,6 +726,7 @@ header .mobile-header-link:hover {
 .contact-btn {
   font-size: 25px;
   text-transform: capitalize;
+  text-decoration: none;
   color: #23284B;
   background-color: #FFFFFF;
   padding: 20px 40px;
@@ -769,6 +770,10 @@ header .mobile-header-link:hover {
     -ms-flex-preferred-size: 40%;
         flex-basis: 40%;
   }
+}
+
+.no-underline-link {
+  text-decoration: none;
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
@@ -1500,6 +1505,7 @@ b {
 
 .contact-p {
   font-size: 17px;
+  max-width: 75ch;
 }
 
 .contact-form {
@@ -1632,9 +1638,10 @@ b {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: space-between;
+      -ms-flex-align: space-between;
+          align-items: space-between;
+  width: 100%;
   margin: 20px 0px;
 }
 @media screen and (min-width: 768px) {
@@ -1682,6 +1689,12 @@ b {
   color: #23284B;
 }
 
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .form-button {
+    min-width: 70px;
+    padding: 0;
+  }
+}
 .accountant-page-header {
   position: relative;
   background-image: url("/img/accountant-header.jpg");
@@ -1689,6 +1702,10 @@ b {
   background-size: cover;
   width: 100%;
   min-height: 300px;
+}
+
+.accountant-wrapper {
+  margin: 60px auto;
 }
 
 .accountant-title {
@@ -1810,6 +1827,43 @@ b {
   .info-square {
     display: none;
   }
+}
+
+.tc-page-header {
+  position: relative;
+  background-image: url("../img/t&c.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 300px;
+}
+
+.tc-container {
+  margin: 60px auto;
+}
+
+.tc-h2 {
+  width: 75ch;
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.tc-p {
+  width: 75ch;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.tc-li {
+  margin: 10px 0px;
+  width: 60ch;
+}
+
+.tc-end {
+  margin-top: 50px;
+  font-size: 20px;
 }
 
 /*!

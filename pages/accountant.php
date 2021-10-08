@@ -23,16 +23,16 @@
       <div class="arrow-content">
         <div class="circle">1</div>
         <p class="arrow-p">
-          With your authorisation I will contact your current accountant for
-          professional clearance on your behalf to ensure a smooth handover.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque omnis
+          blanditiis voluptatibus non dolor deserunt veritatis ut consequatur.
         </p>
       </div>
     </div>
     <div class="info-square">
       <div class="circle">1</div>
       <p class="arrow-p">
-        With your authorisation I will contact your current accountant for
-        professional clearance on your behalf to ensure a smooth handover.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quia
+        mollitia architecto magnam ipsa excepturi, odit culpa, veniam eos.
       </p>
     </div>
   </div>
@@ -42,18 +42,18 @@
         <div class="arrow-content">
           <div class="circle">2</div>
           <p class="arrow-p">
-            To comply with money laundering regulations I will need to confirm
-            your identity and proof of address with either your passport or
-            driving licence and a copy of a recent utility bill.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores
+            ipsum rerum veniam neque nobis enim omnis suscipit fugit dolor
+            alias! Optio neque consectetur perspiciatis voluptates.
           </p>
         </div>
       </div>
     <div class="info-square">
       <div class="circle">2</div>
       <p class="arrow-p">
-        To comply with money laundering regulations I will need to confirm
-        your identity and proof of address with either your passport or
-        driving licence and a copy of a recent utility bill.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo qui,
+        blanditiis earum doloribus. A doloribus animi esse aut labore vel
+        deleniti eos laudantium. Officia, eveniet.
       </p>
     </div>
   </div>
@@ -63,16 +63,16 @@
       <div class="arrow-content">
         <div class="circle">3</div>
         <p class="arrow-p">
-          We will sign a letter of engagement so that both parties have a
-          clear understanding of their responsibilities.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum
+          aperiam quasi architecto maxime cupiditate.
         </p>
       </div>
     </div>
     <div class="info-square">
       <div class="circle">3</div>
       <p class="arrow-p">
-        We will sign a letter of engagement so that both parties have a
-        clear understanding of their responsibilities.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis
+        molestiae cum fugit a dolores, reprehenderit inventore.
       </p>
     </div>
   </div>
@@ -82,18 +82,17 @@
       <div class="arrow-content">
         <div class="circle">4</div>
         <p class="arrow-p">
-          Finally, I will need to be authorised by HMRC to act as your new
-          accountant. I organise this process and HMRC will write to you with
-          the necessary codes to enable authorisation.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Labore dicta, quas eaque rerum.
         </p>
       </div>
     </div>
     <div class="info-square">
       <div class="circle">4</div>
       <p class="arrow-p">
-        Finally, I will need to be authorised by HMRC to act as your new
-        accountant. I organise this process and HMRC will write to you with
-        the necessary codes to enable authorisation.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
+        quaerat reiciendis excepturi in inventore sint, sapiente consequatur
+        sed, adipisci ducimus quibusdam sit fugiat aspernatur voluptates.
       </p>
     </div>
   </div>

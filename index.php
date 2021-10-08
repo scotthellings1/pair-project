@@ -14,10 +14,10 @@
             for a free consultation
           </h2>
           <div class="buttons">
-            <a class="btn-1">
+            <a class="btn-1" href="/pages/services.php">
               see our services
             </a>
-            <a class="btn-2">
+            <a class="btn-2" href="/pages/contact.php">
               contact us today
             </a>
           </div>
